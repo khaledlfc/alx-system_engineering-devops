@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -c -i "bin" /etc/passwd
+uniq -w bin root /etc/passwd | wc
