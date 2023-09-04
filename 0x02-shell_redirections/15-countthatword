@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -w bin root /etc/passwd | wc
+uniq -w bin root /etc/passwd | wc -l
